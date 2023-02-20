@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinâmica</H1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumenta e diminui o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudios em HTML5.</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Anuel_AA_Karol_G.mp3" controls autoplay ></audio> <!--existe varios formato de arquivos: MP3, WAV, OGG e outos-->
+    <br>
+    <audio preload="metadata" controls>
+        <source src="midia/Drake_God's_Plan(256k).mp3" type="audio/mpeg">
+        <source src="midia/Drake_God's_Plan(256k).ogg" type="audio/ogg">
+        <source src="midia/Drake_God's_Plan(256k).wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/Drake_God's_Plan(256k).mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

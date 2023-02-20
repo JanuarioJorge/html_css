@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(32, 31, 31);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+p {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 470px;
+}
+
+.centro {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 400px;
+}
+
+.seta_meio {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 641px; 
+}
+
+.meiocurso {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    margin-left: 596px; 
+}
